@@ -7,6 +7,7 @@
 </head>
 <body>
 	<h1>Online Book Store</h1>
+	<h2> welcome</h2>
 	<nav class="navbar">
 	    <ul>
 	        <li><a href="#">Home</a></li>
