@@ -16,7 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+//I change this one
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::prefix('bookStore')->group( function(){
 
