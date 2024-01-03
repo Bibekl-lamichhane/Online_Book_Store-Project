@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::prefix('bookStore')->group( function(){
+
+    Route::controller(App\Http\Controllers\BookStoreController::class)->group( function(){
+        Route::get('/Homepage','index');
+
+    });
+
+
+
+
+});
